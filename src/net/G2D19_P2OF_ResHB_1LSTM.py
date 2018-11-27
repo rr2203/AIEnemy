@@ -8,7 +8,7 @@ import settings.LayerSettings as layerSettings
 import settings.DataSettings as dataSettings
 import numpy as np
 
-DARKNET19_MODEL_PATH = 'AIEnemy/dataset/darknet19.pb'
+DARKNET19_MODEL_PATH = 'dataset/darknet19.pb'
 
 class Net(NetworkBase):
 	def __init__(self, inputImage_, batchSize_, unrolledSize_, isTraining_, trainingStep_):
