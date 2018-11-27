@@ -12,8 +12,8 @@
 #=====================================================================================
 #    User Settings (The following variables should be adjust to your need.)
 #=====================================================================================
-LIST_OF_NO_FIGHT_DIR = ["AIEnemy//dataset//nofights"]
-LIST_OF_FIGHT_DIR = ["AIEnemy//dataset//fights"]
+LIST_OF_NO_FIGHT_DIR = ["dataset//nofights"]
+LIST_OF_FIGHT_DIR = ["dataset//fights"]
 
 VAL_SET_RATIO = 0.1
 TEST_SET_RATIO = 0.4   # NUMBER_OF_TEST_SET = NUMBER_OF_TOTAL_DATA * TEST_SET_RATIO
